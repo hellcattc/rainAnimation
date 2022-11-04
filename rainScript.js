@@ -1,6 +1,6 @@
 var canvas = document.getElementById("myCanvas");
-canvas.style.width = this.window.innerWidth;
-canvas.style.height = this.window.innerHeight;
+canvas.width = this.window.innerWidth;
+canvas.height = this.window.innerHeight;
 var ctx = canvas.getContext("2d")
 
 var randDistr;
